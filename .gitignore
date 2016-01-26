@@ -1,0 +1,32 @@
+*.class
+*.log
+
+# sbt specific
+.cache*
+.history
+.lib/
+dist/*
+target/
+bin/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# for vim
+tags
+.*.swp
+.*.swo
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.classpath
+.settings
+.project
+build
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml
+
+# for OS X
+.DS_Store
